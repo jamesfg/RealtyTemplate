@@ -6,8 +6,4 @@ import { Component } from '@angular/core';
   styleUrls: ['./realtor-profile.css']
 })
 export class RealtorProfileComponent {
-  name = "Blake Baker";
-  address = "1111 Fairmont Pkwy"
-  city = "Pasadena"
-  state = "texas"
 }

@@ -4,13 +4,24 @@ import { FormsModule } from '@angular/forms';
 import { HttpModule } from '@angular/http';
 import { RealtorProfileComponent } from './realtor-profile/realtor-profile.component';
 import { AppComponent } from './app.component';
+import {RouterModule, Routes} from "@angular/router";
+import { HomeComponent } from './home/home.component';
+import { ComingSoonComponent } from './coming-soon/coming-soon.component';
+
+const appRoutes: Routes = [
+  { path: '', component: HomeComponent }
+  // { path: '**', component: PageNotFoundComponent }
+];
 
 @NgModule({
   declarations: [
     AppComponent,
-    RealtorProfileComponent
+    RealtorProfileComponent,
+    HomeComponent,
+    ComingSoonComponent
   ],
   imports: [
+    RouterModule.forRoot(appRoutes),
     BrowserModule,
     FormsModule,
     HttpModule

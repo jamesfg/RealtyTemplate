@@ -1,15 +1,8 @@
-#realtor-app-container {
+.container-fluid {
   height: 100%;
-  margin: 2%;
+  padding: 0 0 !important;
 }
 
-.row {
-  height: 100%;
-}
-
-.main-container {
-  height: 100%;
-  background-color: white;
-  border: solid 1px white;
-  border-radius: 3px;
+.nav-social{
+  color: white;
 }
