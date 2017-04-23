@@ -6,4 +6,10 @@ import { Component } from '@angular/core';
   styleUrls: ['./realtor-profile.css']
 })
 export class RealtorProfileComponent {
+  name: string =  'Blake Baker';
+
+  constructor() { }
+
+  ngOnInit() {
+  }
 }

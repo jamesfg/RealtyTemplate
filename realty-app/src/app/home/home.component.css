@@ -4,14 +4,8 @@
 
 }
 
-.col-sm-10 {
+.col-sm-12 {
   padding-left: 0 !important;
   padding-right: 0 !important;
-}
-
-
-.col-sm-2 {
-  background-color: #292b2c;
-  background-size: 20px 20px;
   height: 100%;
 }

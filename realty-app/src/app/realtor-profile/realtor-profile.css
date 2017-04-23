@@ -1,0 +1,19 @@
+.card {
+  padding: 20px 20px;
+  background: transparent;
+  border: none;
+}
+
+.card-block {
+  margin-top: 10px;
+  color: white;
+  padding: 0 0;
+}
+
+.card-text {
+  overflow: auto;
+}
+
+i {
+  overflow: auto;
+}

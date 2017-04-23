@@ -7,10 +7,11 @@ import { AppComponent } from './app.component';
 import {RouterModule, Routes} from "@angular/router";
 import { HomeComponent } from './home/home.component';
 import { ComingSoonComponent } from './coming-soon/coming-soon.component';
+import { ContactComponent } from './contact/contact.component';
 
 const appRoutes: Routes = [
-  { path: '', component: HomeComponent }
-  // { path: '**', component: PageNotFoundComponent }
+  { path: '', component: HomeComponent },
+  { path: 'contact', component: ContactComponent }
 ];
 
 @NgModule({
@@ -18,7 +19,8 @@ const appRoutes: Routes = [
     AppComponent,
     RealtorProfileComponent,
     HomeComponent,
-    ComingSoonComponent
+    ComingSoonComponent,
+    ContactComponent
   ],
   imports: [
     RouterModule.forRoot(appRoutes),
