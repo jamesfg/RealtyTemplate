@@ -18,23 +18,44 @@
   background: rgba(0, 0, 0, .6);
 }
 
-.jumbo-title {
+.promise {
   position: absolute;
-  top: 20px;
+  top: 0;
   left: 0;
   width: 100%;
+  height: calc(100% - 150px);
+  overflow: scroll;
+  margin: auto;
+  text-align: center;
+  border-left: none;
+  padding: 10px;
 }
 
-.contact {
-  position: absolute;
-  top: 40%;
-  left: 0;
+.promise-text {
+  padding: calc(5%);
+}
+
+.promise-title {
   width: 100%;
+  font-size: 25px;
+  display: inline-block;
+}
+
+.promise-body {
+  width: 100%;
+  padding: 15px 0;
+  font-size: 25px;
+  display: inline-block;
+  border-bottom: 1px solid white;
+  border-top: 1px solid white;
+  border-bottom-color: rgba(255, 255, 255, 0.6);
+  border-top-color: rgba(255, 255, 255, 0.6);
 }
 
 .media-links {
   position: absolute;
-  bottom: 0px;
+  bottom: 0;
+  left: 0;
   width: 100%;
   margin-bottom: 10px;
 }
