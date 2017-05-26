@@ -24,7 +24,7 @@
   left: 0;
   width: 100%;
   height: calc(100% - 150px);
-  overflow: scroll;
+  overflow: auto;
   margin: auto;
   text-align: center;
   border-left: none;
