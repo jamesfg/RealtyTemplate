@@ -32,7 +32,7 @@
 }
 
 .promise-text {
-  padding: calc(5%);
+  padding: 0 calc(5%);
 }
 
 .promise-title {
@@ -58,4 +58,15 @@
   left: 0;
   width: 100%;
   margin-bottom: 10px;
+}
+
+.find-button:hover {
+  background-color: transparent;
+  border-color: white;
+  color: black;
+  cursor: pointer;
+}
+
+.search-form {
+  padding: 40px calc(5%);
 }

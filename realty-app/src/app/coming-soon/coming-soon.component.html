@@ -5,6 +5,15 @@
       <img class="img-fluid rounded" src="../../assets/headshot.JPG" width="200" alt="Blake Baker">
       <div style="width: 100%">Realtor</div>
       <div style="width: 100%">Blake Baker</div>
+      <form class="search-form" (submit)="onSearch()">
+        <h5>Find your new home!</h5>
+        <div class="input-group input-group-lg">
+          <span class="input-group-btn">
+            <button class="btn btn-outline-primary find-button" type="button" (click)="onSearch()">Find!</button>
+          </span>
+          <input type="text" class="form-control" placeholder="Enter Address, City, Zip Code" [(ngModel)]="searchTerm" aria-describedby="sizing-addon1" name="searchTerm">
+        </div>
+      </form>
       <p class="promise-text">
         <span class="promise-body">
           <span class="promise-title">Knowledge is power.</span>
@@ -14,6 +23,7 @@
       </p>
     </div>
     <div class="media-links">
+
       <p class="lead">
         <a class="btn btn-lg" routerLink="/contact" role="button">Contact</a>
       </p>
